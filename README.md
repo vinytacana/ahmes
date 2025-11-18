@@ -35,12 +35,3 @@ O simulador requer apenas dois arquivos no mesmo diretório:
 
 2. mem.txt (O Programa)
 - Este arquivo define o conteúdo da memória, linha por linha, em formato decimal.
-
-Linha,Decimal,Hex (Opcode),Instrução,Explicação
-0,20,0x14,LDA 4,Carrega o valor 10 (do Endereço 4) no AC.
-1,69,0x45,SUB 5,Subtrai o valor 4 (do Endereço 5) do AC.
-2,38,0x26,STA 6,Armazena o resultado (6) no Endereço 6.
-3,240,0xF0,HLT,Encerra a execução.
-4,10,0x0A,Dado,Valor 10 (Minuendo).
-5,4,0x04,Dado,Valor 4 (Subtraendo).
-6,0,0x00,Resultado,Posição de destino.
